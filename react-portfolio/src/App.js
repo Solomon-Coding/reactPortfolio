@@ -8,7 +8,7 @@
 //         <img src={logo} className="App-logo" alt="logo" />
 //         <p>
 //           Edit <code>src/App.js</code> and save to reload.
-//         </p>
+//         </p> 
 //         <a
 //           className="App-link"
 //           href="https://reactjs.org"
@@ -24,15 +24,44 @@
 
 // export default App;
 
+// import './App.css';
+// import BucketList from './components/BucketList';
+
+// function App() {
+//   return (
+//     <div className="bucket-app">
+//       <BucketList />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+import React from 'react';
 import './App.css';
-import BucketList from './components/BucketList';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route}
+	from 'react-router-dom';
+import Home from './pages';
+import About from './pages/about';
+import Portfolio from './pages/portfolio';
+import ContactMe from './pages/contact';
+import Resume from './pages/resume';
 
 function App() {
-  return (
-    <div className="bucket-app">
-      <BucketList />
-    </div>
-  );
+return (
+	<Router>
+	<Navbar />
+	<Routes>
+		<Route exact path='/' element={<Home />} />
+		<Route path='/about' element={<About/>} />
+		<Route path='/portfolio' element={<Portfolio/>} />
+		<Route path='/contact' element={<ContactMe/>} />
+		<Route path='/resume' element={<Resume/>} />
+	</Routes>
+	</Router>
+);
 }
 
 export default App;
