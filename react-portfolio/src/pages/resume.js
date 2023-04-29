@@ -20,10 +20,32 @@ const Resume = () => {
 return (
 	<div>	
 		<h3>Resume</h3>
-		<h3>Click on below button to download PDF file</h3>
-				<button onClick={onButtonClick}>
-					Download PDF
-				</button>
+		Download my&nbsp;
+		<button onClick={onButtonClick}>
+			Resume
+		</button>
+
+		<h2>Front-end</h2>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>jQuery</li>
+			<li>responsive design</li>	
+			<li>React</li>
+			<li>Bootstrap</li>
+		</ul>
+
+		<h2>Back-end</h2>
+		<ul>
+			<li>APIs</li>
+			<li>Node</li>
+			<li>Express</li>
+			<li>MySQL, Sequelize</li>
+			<li>responsive design</li>	
+			<li>React</li>
+			<li>Bootstrap</li>
+		</ul>
 	</div>
 
 );
