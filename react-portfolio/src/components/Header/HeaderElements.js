@@ -1,42 +1,14 @@
-// import { FaBars } from "../../logo";
-// import { HeaderLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Header = styled.header`
-background: #ffb3ff;
+background: #2C3532;
+color: #D8B08C;
 height: 85px;
 display: flex;
 justify-content: space-between;
 padding: 0.2rem calc((100vw - 1000px) / 2);
 z-index: 12;
 `;
-
-// export const HeaderLink = styled(Link)`
-// color: #808080;
-// display: flex;
-// align-items: center;
-// text-decoration: none;
-// padding: 0 1rem;
-// height: 100%;
-// cursor: pointer;
-// &.active {
-// 	color: #4d4dff;
-// }
-// `;
-
-// export const Bars = styled(FaBars)`
-// display: none;
-// color: #808080;
-// @media screen and (max-width: 768px) {
-// 	display: block;
-// 	position: absolute;
-// 	top: 0;
-// 	right: 0;
-// 	transform: translate(-100%, 75%);
-// 	font-size: 1.8rem;
-// 	cursor: pointer;
-// }
-// `;
 
 export const HeaderMenu = styled.div`
 display: flex;

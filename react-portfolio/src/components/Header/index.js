@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, HeaderLink, HeaderMenu }
+import { Header}
 	from "./HeaderElements";
 import Navbar from "../Navbar";
 
