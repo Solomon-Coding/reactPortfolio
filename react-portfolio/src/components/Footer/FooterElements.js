@@ -18,8 +18,8 @@ margin-right: -24px;
 white-space: nowrap;
 &:hover {
 	filter: invert(85%) sepia(17%) saturate(1118%) hue-rotate(324deg) brightness(101%) contrast(103%);
-	width:85%;
-	height:85%;
+	// width:85%;
+	// height:85%;
 }
 @media screen and (max-width: 768px) {
 	display: none;

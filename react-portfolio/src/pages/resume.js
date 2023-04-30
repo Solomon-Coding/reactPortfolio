@@ -18,7 +18,7 @@ const onButtonClick = () => {
 
 const Resume = () => {
 return (
-	<div>	
+	<main>	
 		<h3>Resume</h3>
 		Download my&nbsp;
 		<button onClick={onButtonClick}>
@@ -46,7 +46,7 @@ return (
 			<li>React</li>
 			<li>Bootstrap</li>
 		</ul>
-	</div>
+	</main>
 
 );
 };

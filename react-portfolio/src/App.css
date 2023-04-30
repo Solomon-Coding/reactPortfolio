@@ -38,13 +38,13 @@
 } */
 
 /* Color Pallet */
-:root {
+/* :root {
   --color1: #5D5C61;
   --color2: #938E94;
   --color3: #7395AE;
   --color4: #557A95;
   --color5: #B0A295;
-}
+} */
 
 :root {
   --color1: #2C3532;
@@ -52,4 +52,16 @@
   --color3: #D8B08C;
   --color4: #FFCB9B;
   --color5: #D2E9E3;
+}
+
+main{
+  background-color: var(--color5);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5% 0%;
+  color:var(--color2)
+}
+main > *{
+  margin: 0px;
 }
