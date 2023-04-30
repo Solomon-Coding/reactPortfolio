@@ -1,6 +1,6 @@
 import React from "react";
 import Picture from "../../../SDV_Picture.jpg";
-import {Img} from "./about";
+import {Img} from "./AboutElements";
 
 const About = () => {
 return (
