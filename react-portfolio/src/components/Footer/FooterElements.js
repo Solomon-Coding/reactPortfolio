@@ -12,14 +12,24 @@ z-index: 12;
 export const Img = styled.img`
 display: flex;
 fill: #D8B08C;
-width: 30%;
-height: 30%;
+width: 80%;
+height: 80%;
 align-items: center;
 margin-right: -24px;
-/* Second Footer */
-/* margin-right: 24px; */
-/* Third Footer */
-/* width: 100vw;
+white-space: nowrap; */
+&.active {
+	color: #FFCB9B;
+}
+@media screen and (max-width: 768px) {
+	display: none;
+}
+`;
+
+export const Svg = styled.svg`
+display: flex;
+width:100%;
+height:100%;
+fill: #D8B08C;
 white-space: nowrap; */
 &.active {
 	color: #FFCB9B;
