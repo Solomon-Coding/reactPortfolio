@@ -57,9 +57,9 @@
 main{
   background-color: var(--color5);
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: column;
-  padding: 5% 0%;
+  padding: 5% 10%;
   color:var(--color2)
 }
 main > *{

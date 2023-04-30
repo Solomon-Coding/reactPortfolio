@@ -45,11 +45,11 @@ import FooterComponent from './components/Footer';
 import HeaderComponent from './components/Header';
 import { BrowserRouter as Router, Routes, Route}
 	from 'react-router-dom';
-import Home from './pages';
-import About from './pages/about';
-import Portfolio from './pages/portfolio';
-import ContactMe from './pages/contact';
-import Resume from './pages/resume';
+import Home from './components/pages';
+import About from './components/pages/About/index';
+import Portfolio from './components/pages/portfolio';
+import ContactMe from './components/pages/contact';
+import Resume from './components/pages/resume';
 
 function App() {
 return (
