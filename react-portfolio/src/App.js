@@ -41,6 +41,8 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
+import FooterComponent from './components/Footer';
+import HeaderComponent from './components/Header';
 import { BrowserRouter as Router, Routes, Route}
 	from 'react-router-dom';
 import Home from './pages';
@@ -52,7 +54,7 @@ import Resume from './pages/resume';
 function App() {
 return (
 	<Router>
-	<Navbar />
+	<HeaderComponent/>
 	<Routes>
 		<Route exact path='/' element={<Home />} />
 		<Route path='/about' element={<About/>} />
@@ -60,6 +62,8 @@ return (
 		<Route path='/contact' element={<ContactMe/>} />
 		<Route path='/resume' element={<Resume/>} />
 	</Routes>
+	<FooterComponent/>
+
 	</Router>
 );
 }
