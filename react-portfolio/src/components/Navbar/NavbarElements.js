@@ -18,6 +18,7 @@ height: 100%;
 cursor: pointer;
 &.active {
 	color: #FFCB9B;
+	font-weight:bold;
 }
 `;
 
