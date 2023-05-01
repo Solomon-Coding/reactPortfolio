@@ -73,32 +73,74 @@ h3 {
 
 .container {
   position: relative;
-  /* width: 50%; */
+  width:350px;
+  height:200px;
+  margin: 20px;;
+}
+
+.image{
+  display: flex;
+width: 350px;
+height: 200px;
+margin: 20px;
+/* border-radius: 5%; */
+justify-content: center;
+align-items: center;
 }
 
 .overlay {
   position: absolute;
-  top: 0;
+  /* display: flex; */
+  display: flex;
+  top: 20px;
   bottom: 0;
-  left: 0;
+  left: 20px;
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  /* opacity: 0; */
   /* transition: .5s ease; */
-  background-color: #008CBA;
+  /* background-color: #008CBA; */
 }
 
-.container:hover .overlay {
+.container:hover .image {
+  filter: brightness(.35);
+}
+
+.container:hover .overlay .text{
+  opacity: 1;
+}
+
+.container:hover .text2{
   opacity: 1;
 }
 
 .text {
+  display: flex;
   color: white;
   font-size: 20px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 130px;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.text2 {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.gitImage{
+  width:30px;
+  height: 30px;
+  filter: invert(1);
 }

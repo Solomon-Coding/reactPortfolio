@@ -18,11 +18,11 @@ return (
             code and finding solutions in unique and creative ways. Additionally, I love working alongside 
             other amazing programmers where we can grow as a group!</p>
         <br/>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio fugit eveniet maxime. Culpa 
+        {/* <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio fugit eveniet maxime. Culpa 
             exercitationem dolorum sit natus quia, quam quasi numquam iusto eveniet voluptatum illum nulla 
             officiis sapiente enim qui. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio fugit 
             eveniet maxime. Culpa exercitationem dolorum sit natus quia, quam quasi numquam iusto eveniet 
-            voluptatum illum nulla officiis sapiente enim qui.</p>
+            voluptatum illum nulla officiis sapiente enim qui.</p> */}
 
 	</main>
 );

@@ -21,7 +21,4 @@ white-space: nowrap;
 	// width:85%;
 	// height:85%;
 }
-@media screen and (max-width: 768px) {
-	display: none;
-}
 `;
