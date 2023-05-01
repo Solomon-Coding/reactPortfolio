@@ -9,7 +9,7 @@ const Portfolio = () => {
 				<br/>
 				<Box>
 					{projects.map((project)=>
-					<div className='container'>
+					<div className='container1'>
 						<img className='image' src={project.image} alt={project.altText}></img>
 						<div className='overlay'>
 							<a className='text' href={project.webLocation} target="_blank" rel="noreferrer">{project.name}</a>

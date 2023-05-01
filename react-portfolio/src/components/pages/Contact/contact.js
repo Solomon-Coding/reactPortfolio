@@ -1,11 +1,9 @@
 import styled from "styled-components";
 
-export const Img = styled.img`
-display: flex;
-align-items: flex-start;
-border-radius: 50%;
-padding-bot
-width: 125px;
-height: 125px;
+export const Div = styled.div`
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
 `;
 

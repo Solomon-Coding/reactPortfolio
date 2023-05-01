@@ -71,7 +71,7 @@ h3 {
 }
 
 
-.container {
+.container1 {
   position: relative;
   width:350px;
   height:200px;
@@ -103,15 +103,15 @@ align-items: center;
   /* background-color: #008CBA; */
 }
 
-.container:hover .image {
+.container1:hover .image {
   filter: brightness(.35);
 }
 
-.container:hover .overlay .text{
+.container1:hover .overlay .text{
   opacity: 1;
 }
 
-.container:hover .text2{
+.container1:hover .text2{
   opacity: 1;
 }
 
