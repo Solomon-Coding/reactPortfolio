@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactPortfolio/static/css/main.19a35b17.css",
+    "main.js": "/reactPortfolio/static/js/main.f5f4c1a0.js",
+    "static/js/787.a2cb61a6.chunk.js": "/reactPortfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/FirstPortfolio_sc.png": "/reactPortfolio/static/media/FirstPortfolio_sc.90836f92d28407f1b9b5.png",
+    "static/media/movieQue_sc.png": "/reactPortfolio/static/media/movieQue_sc.32b6bd0190415fdec6a2.png",
+    "static/media/SDV_Picture.jpg": "/reactPortfolio/static/media/SDV_Picture.2572cd4e958e05a8fbc4.jpg",
+    "static/media/PasswordGenerator_sc.png": "/reactPortfolio/static/media/PasswordGenerator_sc.66611c2a33b794ba06ec.png",
+    "static/media/Homecooked_sc.png": "/reactPortfolio/static/media/Homecooked_sc.2e51030b37dc48284653.png",
+    "static/media/github_icon.svg": "/reactPortfolio/static/media/github_icon.3a8a8e1f465e879028b101b31a936604.svg",
+    "static/media/linkedin_icon.svg": "/reactPortfolio/static/media/linkedin_icon.cc2783da46a4c8d85f68ad6d28fe723b.svg",
+    "static/media/stackoverflow_icon.svg": "/reactPortfolio/static/media/stackoverflow_icon.edce558dd62ddb6bb0fc133560b10949.svg",
+    "index.html": "/reactPortfolio/index.html",
+    "main.19a35b17.css.map": "/reactPortfolio/static/css/main.19a35b17.css.map",
+    "main.f5f4c1a0.js.map": "/reactPortfolio/static/js/main.f5f4c1a0.js.map",
+    "787.a2cb61a6.chunk.js.map": "/reactPortfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19a35b17.css",
+    "static/js/main.f5f4c1a0.js"
+  ]
+}
