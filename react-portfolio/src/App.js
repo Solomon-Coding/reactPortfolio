@@ -14,8 +14,8 @@ return (
 	<Router>
 	<HeaderComponent/>
 	<Routes>
-		<Route exact path='/' element={<About />} />
-		<Route path='/about' element={<About/>} />
+		{/* <Route exact path='/' elementsAbout/>} /> */}
+		<Route exact path='/about' element={<About/>} />
 		<Route path='/portfolio' element={<Portfolio/>} />
 		<Route path='/contact' element={<ContactMe/>} />
 		<Route path='/resume' element={<Resume/>} />
