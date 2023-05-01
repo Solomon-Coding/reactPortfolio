@@ -1,0 +1,146 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* Color Pallet */
+/* :root {
+  --color1: #5D5C61;
+  --color2: #938E94;
+  --color3: #7395AE;
+  --color4: #557A95;
+  --color5: #B0A295;
+} */
+
+:root {
+  --color1: #2C3532;
+  --color2: #106466;
+  --color3: #D8B08C;
+  --color4: #FFCB9B;
+  --color5: #D2E9E3;
+}
+
+main{
+  background-color: var(--color5);
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 5% 10%;
+  color:var(--color2)
+}
+main > *{
+  margin: 0px;
+}
+
+h3 {
+  margin-bottom: 0px;
+}
+
+
+.container1 {
+  position: relative;
+  width:350px;
+  height:200px;
+  margin: 20px;;
+}
+
+.image{
+  display: flex;
+width: 350px;
+height: 200px;
+margin: 20px;
+/* border-radius: 5%; */
+justify-content: center;
+align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  /* display: flex; */
+  display: flex;
+  top: 20px;
+  bottom: 0;
+  left: 20px;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  /* opacity: 0; */
+  /* transition: .5s ease; */
+  /* background-color: #008CBA; */
+}
+
+.container1:hover .image {
+  filter: brightness(.35);
+}
+
+.container1:hover .overlay .text{
+  opacity: 1;
+}
+
+.container1:hover .text2{
+  opacity: 1;
+}
+
+.text {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 130px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.text2 {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.gitImage{
+  width:30px;
+  height: 30px;
+  filter: invert(1);
+}
