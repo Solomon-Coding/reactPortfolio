@@ -2,6 +2,7 @@ import movieQue_sc from '../../../movieQue_sc.png';
 import Homecooked_sc from '../../../Homecooked_sc.png';
 import PasswordGenerator_sc from '../../../PasswordGenerator_sc.png';
 import FirstPortfolio_sc from '../../../FirstPortfolio_sc.png';
+import jjsGames_sc from '../../../jjsGames_sc.png';
 
 const projects = [
 {
@@ -31,6 +32,13 @@ const projects = [
     image: FirstPortfolio_sc,
     altText: 'First Portfolio webpage',
     gitHub: 'https://github.com/Solomon-Coding/challenge2-portfolio'
+},
+{
+    name: '2JS - Games',
+    webLocation: 'https://jjs-games.herokuapp.com/',
+    image: jjsGames_sc,
+    altText: '2JS - Games webpage',
+    gitHub: 'https://github.com/jcherwin/2js-games'
 },
 ];
 
